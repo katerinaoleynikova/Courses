@@ -1,5 +1,5 @@
-*Lecture 1: Elements of Combinatorics. /06 Sept. 2021/*
+# Lecture 1: Elements of Combinatorics. /06 Sept. 2021/
 The main rules of combinatorics: rule of sum and rule of multiplication. Factorial. Arrangements, Replacements, Combinations, Combinations with repetition. Newton's binomial theorem.
 
 The rule of sum:
-Let an object _a_ be from A = {a1, a2, ... an) that could be selected by _n_ dif. ways...
+Let an object 'a' be from A = {a1, a2, ... an) that could be selected by 'n' dif. ways...

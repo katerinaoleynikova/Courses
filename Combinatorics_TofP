@@ -11,3 +11,16 @@ Let an object a be from A = {a1, a2, ... an} that could be selected by n dif. wa
 How many ways to select a student in a group consisting of A boys and B girls?
 
 Solution: We may select a student from two cohorts: A (boys) or B (girls). "Or" is the same as "plus", therefore, A + B is the correct answer.
+
+
+The rule of multiplication:
+
+Let an obj. A would be selected by n ways, and then after such a choice an obj. B would be selected by m ways too. Then, a duet (A,B) could be selected by n*m ways.
+
+*** Learning sample:
+
+It is needed to find a num. of words that contain no more than 3 letters from {A,T,G,C}.
+
+S: "No more than" means "less or equal". In this case, the range of our choice is 1 or 2 or 3 letters: when 1 letter - A, T, G, C; when 2 letters - AA, AT, AG, ... CC; when 3 letters - AAA, AAT, ATT, ... CCC. So, we may write it mathematically as it follows:
+4^1 + 4^2 + 4^3 = 84 words.
+P.S. for instance, 4^1 means number of 1 letter words from 4 possible letters (A,T,G,C), 4^2 - number of 2 letter words from 4 possible letters (AA,AT,AG..), etc.

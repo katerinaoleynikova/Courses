@@ -1,5 +1,5 @@
 # Lecture 1: Elements of Combinatorics. /06 Sept. 2021/
-The main rules of combinatorics: rule of sum and rule of multiplication. Factorial. Arrangements, Replacements, Combinations, Combinations with repetition. Newton's binomial theorem.
+The main rules of combinatorics: rule of sum and rule of multiplication. Factorial. Arrangements, Replacements, Combinations, Combinations with repetitions. Newton's binomial theorem.
 
 
 The rule of sum:
@@ -58,4 +58,36 @@ Number of perturbations of an array (of n el.) [is denoted as p(n)] - a number o
 )(*
 
 Formula: Pn = n!
+
+Perturbations w repetitions.
+
+Formula: P(n1,..,nk) = n!/(n1!,..,nk!)
+
+*** Learning sample:
+
+How many perturbations exist in the "Mississippi" word?
+
+S: m = 1, i = 4, s = 4, p = 2 -> N = 11. Thus, P(1,4,4,2) = 11!/(1!4!4!2!) = 34650.
+
+
+Arrangements and Combinations (General Information)
+
+Arrangements - order of el. is important.
+Combinations - .. not important.
+
+A. n C. can be w/(out) repetitions.
+"Without repetitons" is a subset of "with repetitions".
+
+Arrangements.
+
+Let there is an array of n el. An ordered set of some array el. m is named as arrangement of n el. at m w/out repetitions. 
+Let denote num. of arrangements as A^m_n. 
+How to find A^m_n? 
+Theorem.
+A^m_n = n(n-1)..(n-m+1) = n!/(n-m)!
+Proof - we have n possible ways to select the 1st el., n-1 possible ways to select the 2nd one, etc. Finally, we've got m factors starting from n and decreasing at 1 every time.
+* A^n_n = Pn
+* ^-A^k_n = n^k (^- means A w/ repetitions)
+
+*** Learning sample:
 

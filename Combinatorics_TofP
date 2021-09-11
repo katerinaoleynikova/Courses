@@ -33,7 +33,7 @@ S: ***** - a five-digit number. The first * can be in the range {1-9}, the other
 
 Dirichlet's principle or Pigeonhole principle:
 
-Let there is n pigeonholes and n+1 pigeons, then there is at least one pigeonhole w/ 2 or more pigeons; in other words, [if] an amount of pigeonholes is more than an amount of pigeons, there is at least one empty pigeonhole.
+Let there are n pigeonholes and n+1 pigeons, then there is at least one pigeonhole w/ 2 or more pigeons; in other words, [if] an amount of pigeonholes is more than an amount of pigeons, there is at least one empty pigeonhole.
 
 *** Learning sample:
 

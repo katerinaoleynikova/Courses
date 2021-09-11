@@ -29,4 +29,16 @@ P.S. for instance, 4^1 means number of 1 letter words from 4 possible letters (A
 
 How many five-digit numbers do exist?
 
-S:
+S: ***** - a five-digit number. The first * can be in the range {1-9}, the other ones - in the range {0,9}. Thus, n = 9*10^4, where n - a number of five-digit num-s.
+
+Dirichlet's principle or Pigeonhole principle
+
+Let there is n pigeonholes and n+1 pigeons, then there is at least one pigeonhole w/ 2 or more pigeons; in other words, [if] an amount of pigeonholes is more than an amount of pigeons, there is at least one empty pigeonhole.
+
+*** Learning sample:
+
+To prove that in any choice of 5 dots inside of the unit square (r = 1) there is a pair of dots are located from one another no more than (sqrt2)/2.
+
+P: 
+
+

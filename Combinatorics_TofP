@@ -31,6 +31,7 @@ How many five-digit numbers do exist?
 
 S: ***** - a five-digit number. The first * can be in the range {1-9}, the other ones - in the range {0,9}. Thus, n = 9*10^4, where n - a number of five-digit num-s.
 
+
 Dirichlet's principle or Pigeonhole principle:
 
 Let there are n pigeonholes and n+1 pigeons, then there is at least one pigeonhole w/ 2 or more pigeons; in other words, [if] an amount of pigeonholes is more than an amount of pigeons, there is at least one empty pigeonhole.
@@ -40,6 +41,7 @@ Let there are n pigeonholes and n+1 pigeons, then there is at least one pigeonho
 To prove that in any choice of 5 dots inside of the unit square (r = 1) there is a pair of dots are located from one another no more than (sqrt2)/2.
 
 P: A diagonal of the unit square equals sqrt2. Then, if we divide the square into 4 equal squares (pigeonholes on the Dirichlet principle) and put 5 dots inside of the big square randomly, we will one pigeonhole w/ more than 2 dots absolutely. A diagonal of each square pigeonhole is (sqrt2)/2; so, the max. distance between 2 dots inside of each square pigeonhole is no more than a diagonal ((sqrt2)/2).
+
 
 Perturbations.
 

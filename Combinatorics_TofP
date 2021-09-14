@@ -91,3 +91,35 @@ Proof - we have n possible ways to select the 1st el., n-1 possible ways to sele
 
 *** Learning sample:
 
+There is a list of arrangements from 5 el. at 3 el. taken from the array {a,b,c,d,e}. The num. of arrangements should be equal to 5*4*3 = 60; this is as it follows below:
+
+abc bac cab dab eab
+abd bad cad dac eac
+abe bae cae dae ead
+acb bca cba dba eba
+acd bcd cbd dbc ebc
+ace bce cbe dbe ebd
+adb bda cda dca eca
+adc bdc cdb dcb ecb
+ade bde cde dce ecd
+aeb bea cea dea eda
+aec bec ceb deb edb
+aed bed ced dec edc
+
+If these arrangements are grouped into the same letters content categories, we get the 10 rows (in each row there are 6 el.):
+
+abc acb bac bca cab cba - {a,b,c} 
+abd adb bad bda dab dba - {a,b,d}
+abe aeb bae bea eab eba - {a,b,e}
+acd adc cad cda dac dca - {a,c,d}
+ace aec cae cea eac eca - {a,c,e}
+ade aed dae dea ead eda - {a,d,e}
+bcd bdc cbd cdb dbc dcb - {b,c,d}
+bce bec cbe ceb ebc ecb - {b,c,e}
+bde bed dbe deb ebd edb - {d,e,b}
+cde ced dce dec ecd edc - {c,d,e}
+
+Combinations.
+
+Let there is an array of n el. An unordered set of some array el. m is named as combination of n el. at m w/out repetitions.
+Let denote a set of combinations of n el. as C^m_n.

@@ -152,4 +152,32 @@ p.s. C^k_n is denoted is binomial coefficient. p.s.* In the theorem the binomial
 
 Pascal's triangle.
 
+Binomial coef. may be represented in a triangle view in which each value (except the first one) is the sum of 2 former ones. This triangle is named as Pascal's triangle.
+ 
+               1
+            1     1
+          1    2    1
+        1   3     3   1
+      1   4    6    4   1
+    1   5   10    10   5  1
+  1  6   15    20   15   6  1
+1  7   21   35   35   21   7  1
+
+
+Newton's Binomial. Formulas of combinatorics.
+
+* If a = 1, b = 1, the binomial formula is expressed as:
+2^n = sum^n_[k=0] = C^k_n
+* If a = 1, b = -1, the binomial formula ..:
+0 = C^0_n - C^1_n + C^2_n - C^3_n + ..
+
+*** Learning sample:
+
+Find num. of combinations from 10 el. at 3 el. (imagine an entrance lock) when:
+a) num. may repeat
+b) num. cannot repeat
+
+S: a) 
+
+
 

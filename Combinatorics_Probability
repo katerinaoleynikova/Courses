@@ -199,6 +199,36 @@ Thus, the values in the triangle may be represented as binomial coef. based on t
 
 *** Learning sample:
 
+Prove using the binomial formula that the alternating sum of binomial coef-s equals 0.
+
+P: Using reverse logic - 0 = (1-1)^n = sum^n_[k=0]:C^k_n*1^[k]*(-1)^[n-k] = C^0_n - C^1_n + C^2_n - C^3_n + .. (-1)^n*C^n_n
+
+
+Stars and bars method. De Moivre's task.
+
+This is the case when:
+1) the problem may be represented as finding solutions of x1 + x2 + .. + xk = n in integer numbers (btw each xi >= 0);
+2) we have k same objects that should be put in n stacks.
+
+The formula we should use is C^[n-1]_[n+k-1] to solve De Moivre's task.
+
+*** Learning sample:
+
+How many ways to put k same balls in n boxes? Boxes differ from each other.
+
+S: k = 5, n = 3.
+* - a box, | - a partition, then: *****|| 5 balls n 2 partitions; so, there are 7 positions, we need to decide where to put partitions, for example:
+
+**|**|*
+*|**|**
+***|*|*
+
+The formula we should use - C^[n-1]_[n+k-1] = C^2_[5+2] = C^2_7 = 7!/2!5! = 21 ways to put 5 balls in 3 boxes.
+
+
+
+
+
 
 
 

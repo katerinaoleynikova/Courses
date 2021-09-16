@@ -124,3 +124,4 @@ Combinations.
 Let there is an array of n el. An unordered set of some array el. m is named as combination of n el. at m w/out repetitions.
 Let denote a set of combinations of n el. as C^m_n.
 The relation between A^m_n, C^m_n: C^m_n = A^m_n / m! = n!/[(n-m)!m!].
+* ^-C^m_n = C^m_[n+m-1] (^- means C w/ repetitions)

@@ -128,7 +128,7 @@ The relation between A^m_n, C^m_n: C^m_n = A^m_n / m! = n!/[(n-m)!m!].
 Proof - Let there be an array of n el. {a,b,c..l}, in which every el. may repeat A,B,C..L times (A+B+C..+L=m):
 a,a..a, b,b..b, c,c..c, l,l..l
 Let denote both all el. as "1" and the spaces between various el. as "0" as it follows:
-1,1..1,0,1,1..1,0,1,1..1,0,1,1..1 - this combinations consists of 1 (the all m el. w/ repetitions) and 0 (=n-1 [cause 0s separate n {a,b,c..l} elements between them]). 
+1,1..1,0,1,1..1,0,1,1..1,0,1,1..1 - this combination consists of 1 (the all m el. w/ repetitions) and 0 (=n-1 [cause 0s separate n {a,b,c..l} elements between them]). 
 In other words, this combination is sum of m and (n-1) and C^m_[n+m-1] = (n+m-1)!/[(n-1)!m!]
 Consequences:
 * C^[n-m]_n = n!/[(n-m)!(n(n-m))!]

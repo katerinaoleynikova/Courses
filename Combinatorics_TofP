@@ -34,7 +34,7 @@ S: ***** - a five-digit number. The first * can be in the range {1-9}, the other
 
 Dirichlet's principle or Pigeonhole principle:
 
-Let there are n pigeonholes and n+1 pigeons, then there is at least one pigeonhole w/ 2 or more pigeons; in other words, [if] an amount of pigeonholes is more than an amount of pigeons, there is at least one empty pigeonhole.
+Let there be n pigeonholes and n+1 pigeons, then there is at least one pigeonhole w/ 2 or more pigeons; in other words, [if] an amount of pigeonholes is more than an amount of pigeons, there is at least one empty pigeonhole.
 
 *** Learning sample:
 
@@ -80,7 +80,7 @@ A. n C. can be w/(out) repetitions.
 
 Arrangements.
 
-Let there is an array of n el. An ordered set of some array el. m is named as arrangement of n el. at m w/out repetitions. 
+Let there be an array of n el. An ordered set of some array el. m is named as arrangement of n el. at m w/out repetitions. 
 Let denote num. of arrangements as A^m_n. 
 How to find A^m_n? 
 Theorem.
@@ -121,7 +121,15 @@ cde ced dce dec ecd edc - {c,d,e}
 
 Combinations.
 
-Let there is an array of n el. An unordered set of some array el. m is named as combination of n el. at m w/out repetitions.
+Let there be an array of n el. An unordered set of some array el. m is named as combination of n el. at m w/out repetitions.
 Let denote a set of combinations of n el. as C^m_n.
 The relation between A^m_n, C^m_n: C^m_n = A^m_n / m! = n!/[(n-m)!m!].
 * ^-C^m_n = C^m_[n+m-1] (^- means C w/ repetitions)
+Proof - Let there be an array of n el. {a,b,c..l}, in which every el. may repeat A,B,C..L times (A+B+C..+L=m):
+a,a..a, b,b..b, c,c..c, l,l..l
+Let denote both all el. as "1" and the spaces between various el. as "0" as it follows:
+1,1..1,0,1,1..1,0,1,1..1,0,1,1..1 - this combinations consists of 1 (the all m el. w/ repetitions) and 0 (=n-1 [cause 0s separate n {a,b,c..l} elements between them]). 
+In other words, this combination is sum of m and (n-1) and C^m_[n+m-1] = (n+m-1)!/[(n-1)!m!]
+Consequences:
+* C^[n-m]_n = n!/[(n-m)!(n(n-m))!]
+* C^m_n = C^[m-1]_[n-1] + C^m_[n-1]

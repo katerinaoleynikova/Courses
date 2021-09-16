@@ -177,7 +177,30 @@ Find num. of combinations from 10 el. at 3 el. (imagine an entrance lock) when:
 a) num. may repeat
 b) num. cannot repeat
 
-S: a) 
+S: a) C^3_10 = 10!/[3!7!] = 120 combinations; b) ^-C^3_10 = C^3_12 = 12!/[3!9!] = 220 combinations.
+
+*** Learning sample:
+
+Draw Pascal's triangle and prove the values located inside of it are binomial coef-s.
+
+S: Let draw Pascal's triangle in this way:
+ 
+(a+b)^n - Newton's binomial:
+(a+b)^n = (a+b)(a+b)..(a+b)n
+
+n = 0  1        
+n = 1  1 1
+n = 2  1 2 1
+n = 3  1 3 3 1
+n = 4  1 4 6 4 1
+
+For instance, for the second row (n = 1..) if the right "1" has coordinates (m,n), the left "1" - (m,n-1) and the upper left "1" (in the row n = 0..) - (m-1,n-1).
+Thus, the values in the triangle may be represented as binomial coef. based on the binomial coef-s. simplest feature: C^[m-1]_[n-1] + C^m_[n-1] = C^m_n.
+
+*** Learning sample:
+
+
+
 
 
 

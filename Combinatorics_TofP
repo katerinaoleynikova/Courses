@@ -137,3 +137,10 @@ Consequences:
 * C^0_n = 1
 * C^1_n = n
 * C^m_n for negative m = C^m_n = 0
+
+
+Newton's binomial theorem.
+
+The following formula is true for any n:
+(a+b)^n = sum^n_[k=0]:C^k_n*a^k*b^(n-k)
+Proof - 

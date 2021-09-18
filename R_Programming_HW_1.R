@@ -1,7 +1,7 @@
 # Homework 1
 # Deadline 15 September at 23:59
 
-# 1. Read the data (hw1.txt) that contain the three colum. w gene expression level (each gene - each column) at dif.condit.
+# 1. Read the data (hw1_r_programming.txt) that contain the three colum. w gene expression level (each gene - each column) at dif.condit.
 data <- read.table("hw1_r_programming.txt")
 data
 

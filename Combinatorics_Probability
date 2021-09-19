@@ -259,7 +259,11 @@ T(2,1) = T(1,1) + T(1,0) + T(2,0) = 3 + 1 + 1 = 5
 T(2,2) = T(1,2) + T(1,1) + T(2,1) = 5 + 3 + 5 = 13 ways.
 
 * Four people should carry away 9 dif. things. How many ways to do that, if each of them is able to carry away any amount of things? (People are different)
-S:
+S: _ _ _ _ _ _ _ _ _ - each "_" can be carried by 1,2,3, or 4-th person: 4*4*4*4*4*4*4*4*4 = 4^9 ways.
+
+* How many words exists having length of 10 from {A,B,C} alphabet range that contain four letters A?
+S: _ _ _ _ _ _ _ _ _ _ 
+A,A,A,A are going to be placed into 10 positions: C^4_10 = 10!/[4!6!] = 210 ways for four A to be placed.
 
 
 

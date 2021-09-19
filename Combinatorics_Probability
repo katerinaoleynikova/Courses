@@ -274,7 +274,7 @@ At least 2 candies each kid should have; so, 2*5 = 10 candies we are going to sh
 The 5 remaining candies are going to be shared by stars and bars method:
 C^[n-1]_[m+n-1] = C^4_9 = 9!/[4!5!] = 126 ways.
 
-* How many six-digit numbers containing at least one even figure?
+* How many six-digit numbers contain at least one even figure?
 S:
 
 

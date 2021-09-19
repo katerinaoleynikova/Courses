@@ -264,6 +264,18 @@ S: _ _ _ _ _ _ _ _ _ - each "_" can be carried by 1,2,3, or 4-th person: 4*4*4*4
 * How many words exists having length of 10 from {A,B,C} alphabet range that contain four letters A?
 S: _ _ _ _ _ _ _ _ _ _ 
 A,A,A,A are going to be placed into 10 positions: C^4_10 = 10!/[4!6!] = 210 ways for four A to be placed.
+B n C are going to be placed into the remaining 6 positions then:  2*2*2*2*2*2 = 2^6 = 64 ways to placed B n C taking into account the first step.
+Combining two steps we get:
+210*64 = 13440 ways.
+
+* How many ways to share 15 same candies between 5 dif. children in such a way that everybody gets at least 2 candies?
+S: _ _ _ _ _ 
+At least 2 candies each kid should have; so, 2*5 = 10 candies we are going to share between them unquestioningly.
+The 5 remaining candies are going to be shared by stars and bars method:
+C^[n-1]_[m+n-1] = C^4_9 = 9!/[4!5!] = 126 ways.
+
+* How many six-digit numbers containing at least one even figure?
+S:
 
 
 

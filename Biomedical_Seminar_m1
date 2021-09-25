@@ -49,3 +49,8 @@ st= > = > = > = > = > =
       
 * A graph consists of vertices and edges.
 >/^ - oriented edges.
+
+It is needed to find such a way from st to end that has /* as much as possible.
+
+Each alignment has its own way on a graph; in contrast, a way on a graph can be referred to an alignment.
+

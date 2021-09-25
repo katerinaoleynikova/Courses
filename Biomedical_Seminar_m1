@@ -16,7 +16,7 @@ Case study sample: two proteins that should be compared and analyzed (their stru
 
 So, it is important to formalize a biological task.
 
-The reviewed task is named as "alignment" by biologists.
+The reviewed task is named as "alignment" by biologists, "minimization of editorial distances" by mathematicians.
 
 * Alignment can be:
 - local or global
@@ -30,3 +30,6 @@ Case study sample 3: multiple alignment sample - there are 20 proteins instead o
 Case study sample 4: global alignment sample - when we want to compare whole seqs.
 
 * Deletions, insertions, replacements may be caused by biological errors (in any biological processes).
+
+* How to find an appropriate alignment? p.s. means w/ a min cost of the editorial operations.
+It is possible by use of a graph.

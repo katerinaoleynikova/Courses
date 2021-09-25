@@ -23,5 +23,10 @@ The reviewed task is named as "alignment" by biologists.
 - pairwise or multiple.
 
 Case study sample 1: pairwise alignment is used when two seqs exist.
-Case study sample 2: local alignemnt is used when we want to compare pieces of DNA.
+Case study sample 2: local alignemnt is used when we want to compare pieces of DNA (for instance, hundreds bp).
+For example, there is a seq consisting of 1B bp. It is needed to find almost the same seqs (the length for each seq is nearly two hundreds bp).
+This is very difficult task to solve; thus, it is rarely common.
+Case study sample 3: multiple alignment sample - there are 20 proteins instead of 2 ones.
+Case study sample 4: global alignment sample - when we want to compare whole seqs.
 
+* Deletions, insertions, replacements may be caused by biological errors (in any biological processes).

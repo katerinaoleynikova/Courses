@@ -1,0 +1,27 @@
+**Scientific Seminar "Biomedical Data Analysis" (rus)**
+
+Synonyms for the course title: Algorithms and Data Structures.
+
+Lecture 1: Basic def. Typical algorithms. Algorithm efficiency. /08.09.2021/
+
+* How to compare the two words: actgc, ctagg?
+
+actgc  a|c|t|_|g|c
+ctagg  _|c|t|a|g|g
+
+where "_" - deletions, |_| - insertions (of a, for instance), |c| - replacements.
+                       |a|                                    |g|
+
+Case study sample: two proteins that should be compared and analyzed (their structures, relations, etc.).
+
+So, it is important to formalize a biological task.
+
+The reviewed task is named as "alignment" by biologists.
+
+* Alignment can be:
+- local or global
+- pairwise or multiple.
+
+Case study sample 1: pairwise alignment is used when two seqs exist.
+Case study sample 2: local alignemnt is used when we want to compare pieces of DNA.
+

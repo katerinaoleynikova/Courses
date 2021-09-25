@@ -34,16 +34,16 @@ Case study sample 4: global alignment sample - when we want to compare whole seq
 * How to find an appropriate alignment? p.s. means w/ a min cost of the editorial operations.
 It is possible by use of a graph.
 
-c = > = > = > = > = > =end
-  ^ /*^ / ^ / ^ / ^ / ^
-g = > = > = > = > = > =
+c = > = > = > = > = >.=end
+  ^ /*^ / ^ / ^ / ^./ ^
+g = > = > = > = >.= > =
   ^ / ^ / ^ / ^/* ^ /*^
-t = > = > = > = > = > = 
-  ^ / ^ /*^ / ^ / ^ / ^
-c = > = > = > = > = > =
-  ^ /*^ / ^ / ^ / ^ / ^
-a = > = > = > = > = > =
-  ^ / ^ / ^ /*^ / ^ / ^
+t = > = >.=.>.= > = > = 
+  ^ / ^./*^ / ^ / ^ / ^
+c = >.= > = > = > = > =
+  ^./*^ / ^ / ^ / ^ / ^
+a.= > = > = > = > = > =
+ .^ / ^ / ^ /*^ / ^ / ^
 st= > = > = > = > = > =
       c   t   a   g   g
       

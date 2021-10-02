@@ -16,8 +16,8 @@ legend(x = "topright", legend = c("first_set", "second_set"), lty = c(1, 1), col
 
 # 3. Find out whether a linear dependence between these two sets exists.
 sets = cbind(first_set, second_set)
-plot(sets[,1],sets[,2], pch = 8, col = "grey", main = "Correlation plot", xlab = "first_set", ylab = "second_set") # plot(sets)
-lm(sets[,2] ~ sets[,1])
+plot(sets[,1],sets[,2], pch = 8, col = "grey", main = "Correlation plot", xlab = "first_set", ylab = "second_set") # plot(sets) ## poisson -> only integers
+lm(sets[,2] ~ sets[,1]) ## linear regression
 abline(lm(sets[,2] ~ sets[,1]), col = "blue",)
 text(paste("Correlation:", round(cor(sets[,1], sets[,2]), 2)), x = 2, y = 7) # x n y may be outside due to random sets formation. That is why:
 cor.test(sets[,1],sets[,2]) # the more abs. value of cor. [-1,1], the stronger dependence between the sets.

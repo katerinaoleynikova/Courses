@@ -98,8 +98,23 @@ where m - size of the smallest word.
     .^./.^./ ^ / ^ / ^ / ^
 2  a.1 > 1 > 2 > 2 > 3 > 4
     .^ ./ ^ / ^ /*^ / ^ /^
-   st= > 1 > 2 > 3 > 4 > 5 - the left side is considered as the smallest one (it also may be equal to the right side).
-         c   t   a   g   g
+   st= > 1 > 2 > 3 > 4 > 5 - the left side is considered as the smallest one (it also may be equal to the right side). 
+         c   t   a   g   g - the possible ways we have - 2^m.
+
+Case study sample: a protein has 100-300 amino acids, or 300-900 nucleotides.
+Let the protein size would be ~ 200 amino acids:
+2^(200) = (2^10)^20 [1024] > (1000)^20 = (10^3)^20 = 10^60 variants -> the ways more than 10^60 variants. [2^(200) - each of two proteins with a length of 200.
+This is named the curse of dimensionality.
+
+Case study sample: The problem of linear cutting.
+L0 - workpiece length, L1,..,Ln - lengths of cut parts. It is needed to minimize waste.
+S: *It is possible to solve by dynamic programming method.
+Let consider a task series with different L: from 1 to L0.
+L1.. | L0-L1 .. ..
+So, algorithm complexity is 0(n*L0).
+
+
+
 
 
 

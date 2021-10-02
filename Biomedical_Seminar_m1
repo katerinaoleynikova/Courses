@@ -113,6 +113,22 @@ Let consider a task series with different L: from 1 to L0.
 L1.. | L0-L1 .. ..
 So, algorithm complexity is 0(n*L0).
 
+* Dynamic programming.
+
+Case study sample 1: The problem of hares. Fibonacci numbers.
+Hares can cross the swamp on n bumps jumping to the next or through one. Find how many different paths F(n) are possible.
+S: Let remind ourselves about Fibonacci seq.: F(n) = F(n-1) + F(n-2) = 1,1,3,5,8,..
+Let consider a task series with different n (dif. number of bumps).
+Hares get to the last bump in short jumps (F(n-1)) or short jumps (F(n-2)) => F(n) = F(n-1) + F(n-2).
+To find F(n), we should compute F(n-1) and F(n-2) at first.
+We identify variants when there is/are 1 bump, 2 bumps, 3, etc. -> to the all n bumps.
+For instance, there are 100 bumps. Using the Fibonacci formula, we can calculate n(100) = 1,1,2,3,5,8,13,21,44,..n_100. 
+This is the sample how algorithms of dynamic programming work.
+
+Case study sample 2: The problem of rabbits.
+A pair of rabbits gives birth to another pair every month, starting from the second month from their own birth. How many descendants will one couple have in a year?
+
+
 
 
 

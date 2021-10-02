@@ -32,7 +32,7 @@ text(paste("Correlation:", round(cor(set_13[,1], set_13[,2]), 2)), x = 160, y = 
 cor.test(set_13[,1],set_13[,2])
 # -0.13 - weak negative correlation -> there is negative gene expression dependence in gene pair CPY14-htVWQ.
 
-# 2.2 Find out whether there are any mean gene expression differences in any pair of genes.
+# 2.2 Find out whether there are any gene expression differences in means in any pair of genes.
 mean(d1)
 mean(d2)
 mean(d3)
@@ -44,4 +44,4 @@ t.test(set_23[,1],set_23[,2])$p.value # 0.000168951 < 0.05 -> null hypoth. (dif.
 t.test(set_13[,1],set_13[,2])$p.value # 0.239674 > 0.05 -> null hypoth. (dif. in means equals 0) is accepted.
 
 # Conclusion 1: CPY14-RMD4 have the strong dependence only.
-# Conclusion 2: There are mean gene expression differences between CPY14-RMD4 and RMD4-htVWQ gene pairs.
+# Conclusion 2: There are gene expression differences in means between CPY14-RMD4 and RMD4-htVWQ gene pairs.

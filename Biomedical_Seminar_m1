@@ -59,8 +59,27 @@ _|c|t|a|g|g } - alignment.
 
 The considered task is about the minimization of editorial operations (we do not consider penalties/costs there). 
 * If we assume penalties, let's imagine:
-Case study sample 5: there are proteins (=> 20 letters alphabet => we get 20x20 matrix). What would be the result, if we replace amino acid 1 into amino acid 2?
+Case study sample 1: there are proteins (=> 20 letters alphabet => we get 20x20 matrix). What would be the result, if we replace amino acid 1 into amino acid 2?
 If one letter is often replaced by second one, there is a small penalty for such a replacement; in contrast, if it is replaced rarely, it corresponds to a big penalty.
+Case study sample 1.1: if we replace amino acid 1 into amino acid 2 (rare combination), there is a risk that an organism will become extinct/be non-viable.
+
+* Needleman-Wunsch algorithm 
+.. is an example of dynamic programming, a discipline invented by Richard. Bellman.
+
+For instance, it can be used to find the shortest path on a graph in the case when each arrow has its own length.
+
+c 5 > 4 > 3 > 3 > 3 >.3end
+  ^ /*^ / ^ / ^ / ^./ ^
+g 4 > 3 > 2 > 2 >.2 > 3
+  ^ / ^ / ^ / ^/* ^ /*^
+t 3 > 2 >.1.>.2 > 3 > 4 
+  ^ / ^./*^ / ^ / ^ / ^
+c 2 >.1 > 2 > 3 > 3 > 4
+  ^./*^ / ^ / ^ /  / ^
+a.1 > 1 > 2 > 2 > 3 > 4
+ .^ / ^ / ^ /*^ / ^ / ^
+st= > 1 > 2 > 3 > 4 > 5
+      c   t   a   g   g
 
 
 

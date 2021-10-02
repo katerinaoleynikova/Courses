@@ -63,7 +63,7 @@ Case study sample 1: there are proteins (=> 20 letters alphabet => we get 20x20 
 If one letter is often replaced by second one, there is a small penalty for such a replacement; in contrast, if it is replaced rarely, it corresponds to a big penalty.
 Case study sample 1.1: if we replace amino acid 1 into amino acid 2 (rare combination), there is a risk that an organism will become extinct/be non-viable.
 
-* Needleman-Wunsch algorithm 
+* Needleman-Wunsch algorithm.
 .. is an example of dynamic programming, a discipline invented by Richard. Bellman.
 
 For instance, it can be used to find the shortest path on a graph in the case when each arrow has its own length.
@@ -79,7 +79,31 @@ c 2 >.1 > 2 > 3 > 3 > 4
 a.1 > 1 > 2 > 2 > 3 > 4
  .^ / ^ / ^ /*^ / ^ / ^
 st= > 1 > 2 > 3 > 4 > 5
-      c   t   a   g   g
+      c   t   a   g   g  - the main idea to choose minimal value. In this case, an editorial operation equals 1. p.s. an edit. operation for a green arrow equals 0.
+
+* Algorithm complexity.
+.. = O(m*n),
+where m and n - sizes (word length) of two compared words (m*n matrix).
+Let compute the Needleman-Wunsch algorithm complexity:
+.. > O(2^m),
+where m - size of the smallest word.
+
+32 c 5 > 4 > 3 > 3 > 3 >.3end
+    .^./.^./.^./.^./.^./.^
+16 g 4 > 3 > 2 > 2 >.2 > 3
+    .^./.^./.^./.^./ ^ / ^
+8  t 3 > 2 >.1.>.2 > 3 > 4 
+    .^./.^./.^./ ^ / ^ / ^
+4  c 2 >.1 > 2 > 3 > 3 > 4
+    .^./.^./ ^ / ^ / ^ / ^
+2  a.1 > 1 > 2 > 2 > 3 > 4
+    .^ ./ ^ / ^ /*^ / ^ /^
+   st= > 1 > 2 > 3 > 4 > 5 - the left side is considered as the smallest one (it also may be equal to the right side).
+         c   t   a   g   g
+
+
+
+
 
 
 

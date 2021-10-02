@@ -54,3 +54,13 @@ It is needed to find such a way from st to end that has /* as much as possible.
 
 Each alignment has its own way on a graph; in contrast, a way on a graph can be referred to an alignment.
 
+a|c|t|_|g|c
+_|c|t|a|g|g } - alignment.
+
+The considered task is about the minimization of editorial operations (we do not consider penalties/costs there). 
+* If we assume penalties, let's imagine:
+Case study sample 5: there are proteins (=> 20 letters alphabet => we get 20x20 matrix). What would be the result, if we replace amino acid 1 into amino acid 2?
+If one letter is often replaced by second one, there is a small penalty for such a replacement; in contrast, if it is replaced rarely, it corresponds to a big penalty.
+
+
+

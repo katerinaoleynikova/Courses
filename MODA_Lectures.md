@@ -8,14 +8,19 @@ Unsupervised data processing. Techniques of addition, deletion, transformation o
 Feature extraction. Surrogate variables as combinations of multiple predictors. Dummy variables.
 
 Case Study:
+
 Mice protein expression (Expression levels of 77 proteins measured in the celebral cortex).
 
 It is needed to remember that data preparation can make or break a model's predictive ability. How the predictors enter the model is important.
 
 Feature eng. is how the predictors are encoded -> can have significant impact on model performance.
-* training data set:
+
+* training data set:*
+
 - addition
+
 - deletion
+
 - transformation
 
 Unsupevised data processing: the outcome variable is not considered by the preprocessing techniques.

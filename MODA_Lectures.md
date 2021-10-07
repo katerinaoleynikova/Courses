@@ -15,7 +15,7 @@ It is needed to remember that data preparation can make or break a model's predi
 
 Feature eng. is how the predictors are encoded -> can have significant impact on model performance.
 
-* training data set:*
+training data set:
 
 - addition
 

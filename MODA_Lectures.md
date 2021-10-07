@@ -19,10 +19,10 @@ It is needed to remember that data preparation can make or break a model's predi
 
 Feature eng. is how the predictors are encoded -> can have significant impact on model performance.
 
-* training data set:
-addition
-deletion
-transformation
+* training data set: 
+- addition
+- deletion
+- transformation.
 
 Unsupevised data processing: the outcome variable is not considered by the preprocessing techniques.
 
@@ -51,13 +51,9 @@ transformations to resolve outliers - brings outliers towards the majority of th
 
 * Principal component analysis.
 Definition: PCA is orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called *principal components*.
-
 This method seeks to find linear combinations of the predictors, known as principal components (PCs), which capture the most possible variance.
-
 PCj = (aj1 * Predictor1) + (aj2 * Predictor2) + ... + (ajP * Predictor P)
-
 https://setosa.io/ev/principal-component-analysis/ - get to know more about PCA.
-
 PCA
 - creates components that are uncorrelated
 - seeks linear combinations of predictors that maximize variability

@@ -15,12 +15,9 @@ It is needed to remember that data preparation can make or break a model's predi
 
 Feature eng. is how the predictors are encoded -> can have significant impact on model performance.
 
-training data set:
-
+* training data set:
 - addition
-
 - deletion
-
 - transformation
 
 Unsupevised data processing: the outcome variable is not considered by the preprocessing techniques.
@@ -40,7 +37,7 @@ Replacing the data w the log, square root, or inverse may help to remove the ske
 Box and Cox transformation.
 
 * Data transformations for multiple predictors.
-transformations to resolve outliers -brings outliers towards the majority of the data.
+transformations to resolve outliers - brings outliers towards the majority of the data.
 
 * Data reduction and feature extraction.
 - reduce the data by generating a smaller set of predictors that seek to capture the majority of the inf. in the original variables.

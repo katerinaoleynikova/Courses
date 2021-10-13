@@ -10,6 +10,6 @@ Modern Methods of Data Analysis (Machine Learning and Data Analysis in Bioinform
 
 Scientific Seminar "Biomedical Data Analysis" (rus)
 
-Mathematics
+Mathematics (optional course)
 
 R Programming (rus) / Seminars

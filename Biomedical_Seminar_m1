@@ -131,7 +131,7 @@ A pair of rabbits gives birth to another pair every month, starting from the sec
 
 Lecture 2: 
 
-Alignment (new sample).
+Case study sample: alignment (new sample).
 
 2 words - actg, tcgac.  
 Insertions and deletions (indels) - 10,  
@@ -179,5 +179,34 @@ So, algorithm complexity is 0(n*L0).
 
 p.s. It is needed to remember the number of correct answers may be more than one, it depends on a case study.
 
+Case study sample: The problem with nonlinear penalties for multiple deletions.
+c(m+n) <= c(m) + c(n)
+algorithm complexity is 0(L^3).
+tip - addition of edges.
+
+Case study sample: Maximum total subsequence.
+There are 2 words (sequences), we would like to choose the same subseqs inside of these 2 seqs.
+is is worth to note we should not take into account replacements.
+
+atgaccttgaa
+\\ \\\  //
+cattaccga  , the same letters (nucleotides) are connected by lines.
+
+* Types of alignments:
+global multiple alignment.
+for instance,
+aatggtacac
+att__tacac
+at_ggtactc
+ataggtagt_
+
+pairwise alignment.
+aatggtacac
+att__tacac
+
+* Sorting
+
+
+////Solutions will be at the Lecture 3.
 
 

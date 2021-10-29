@@ -204,10 +204,10 @@ pairwise alignment.
 aatggtacac
 att__tacac
 
-* Sorting
+* Sorting.
 Given array, which is needed to be sorted, for instance, by ascending numbers.
 
-* Bubble sort (algorithm) [the series of tasks for sorting the final part of array]
+* Bubble sort (algorithm) [the series of tasks for sorting the final part of array].
 
 Case study sample: 3145264 (an array consisting of some numbers). We need to get such array: 1234456 by step-by-step sorting.
 Bubble sort is based on the from less to more method when comparing the two nearest numbers across the whole array.
@@ -217,7 +217,7 @@ Next step is as it follows: 2 < 4 => everyth. is alright..
 ~ the idea is in it: moving on to the next task is represented as bobble popping.
 algorithm complexity is 0(n^2), where n - a number of steps. Each step has n operations (elements), that is why n*n = n^2.
 
-* Dichotomy: a search in the array.
+* Dichotomy: a search in the sorted array.
 
 Dichotomy - the logical method to divide classes into subclasses.
 Case study sample: Let's imagine that such array is given: 1,17,5,2,4,11,9,16,10,3,12,6,7,8,13,15,14.
@@ -240,7 +240,7 @@ This case looks like that:
 
 the algorithm complexity to find it using a sorted array: log2(n), where n - a number of operations.
 
-* Merge sort [also called mergesort]
+* Merge sort [also called mergesort].
 
 Case study sample: Imagine that we have two sorted arrays that are needed to be merged into the new one and then to be sorted there.
 For instance,
@@ -251,7 +251,24 @@ For instance,
 f.  s.     [2,]      [5,]       [7,]     [10,]     [11,]     [12,]    [13,]     [15]
 arrays
 
-the mergesort algorithm complexity: O(n+m).
+/the merge algorithm complexity: O(n+m)/.
+
+How actually the mergesort procedure looks:
+1,17,5,2,4,11,9,16,10,3,12,6,7,8,13,15,14. - an input merged array (that combines the two pre-input arrays)
+[1],17,[5],2,[4],11,[9],16,[10],3,[12],6,[7],8,[13],15,[14]
+[1,17],2,5,[4,11],9,16,[3,10],6,12,[7,8],13,15,14
+[1,2,5,17],4,9,11,16,[3,6,10,12],7,8,13,15,[14]
+[1,2,4,5,9,11,16,17],3,6,7,8,10,12,13,15,[14]
+[1,2,3,4,5,6,7,8,9],10,11,12,13,15,16,17,[14]
+1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,[14]
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 - the final sorted array after the mergesort process.
+
+the mergesort algorithm complexity: n*log2(n), where n - a number of operations.
+
+* Divide-and-conquer algorithm.
+
+A divide-and-conquer algorithm recursively breaks down a problem into two or more sub-problems of the same or related type, 
+until these become simple enough to be solved directly. 
 
 ////Solutions will be at the Lecture 3.
 

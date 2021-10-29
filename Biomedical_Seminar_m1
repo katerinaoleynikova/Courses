@@ -221,8 +221,24 @@ algorithm complexity is 0(n^2), where n - a number of steps. Each step has n ope
 
 Dichotomy - the logical method to divide classes into subclasses.
 Case study sample: Let's imagine that such array is given: 1,17,5,2,4,11,9,16,10,3,12,6,7,8,13,15,14.
-algorithm complexity to sort it manually (means step-by-step): O(n).
-by dichotomy it is possible to sort it faster. In such case, algorithm complexity is O(ln(n)).
+let's find any elem., say, "8"; then, the algorithm complexity to find it using an unsorted array (means step-by-step try to find an elem.): O(n).
+by dichotomy it is possible to find it faster. In such case, algorithm complexity is O(ln(n)). For this, it is needed to sort an array at first:
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17.
+1) we may take a median (
+In statistics and probability theory, the median is the value separating the higher half from the lower half of a data sample, a population, or a probability distribution. 
+For a data set, it may be thought of as "the middle" value.)
+In this example, we have 17 elems => the 9th elem. is a median. [8 elems | the 9th el | 8 elems]
+The principle of dichotomy is in comparing the left and right sides between 
+(a median is considered as the center of an array that divides it into 2 sides).
+2) then we compare our wish-elem. w/ the median value. Here, the result of comparison: 8 < 9 leads us to the left side of the array.
+3) repeat steps (moving to the left/right side until wish-elem. is found.
+
+This case looks like that:
+[1,2,3,4,5,6,7,8],9*,10,11,12,13,14,15,16,17
+1,2,3,4,5*,[6,7,8],9,10,11,12,13,14,15,16,17
+1,2,3,4,5,6,7*,[8],9,10,11,12,13,14,15,16,17
+
+the algorithm complexity to find it using a sorted array: log2(n), where n - a number of operations.
 
 ////Solutions will be at the Lecture 3.
 

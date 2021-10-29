@@ -270,6 +270,8 @@ the mergesort algorithm complexity: n*log2(n), where n - a size of the array (a 
 A divide-and-conquer algorithm recursively breaks down a problem into two or more sub-problems of the same or related type, 
 until these become simple enough to be solved directly. 
 
+Theorem: the mergesort requires no more than O(n*log2(n)) operations at worst.
+
 ////Solutions will be at the Lecture 3.
 
 

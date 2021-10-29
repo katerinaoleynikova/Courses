@@ -205,7 +205,24 @@ aatggtacac
 att__tacac
 
 * Sorting
+Given array, which is needed to be sorted, for instance, by ascending numbers.
 
+* Bubble sort (algorithm) [the series of tasks for sorting the final part of array]
+
+Case study sample: 3145264 (an array consisting of some numbers). We need to get such array: 1234456 by step-by-step sorting.
+Bubble sort is based on the from less to more method when comparing the two nearest numbers across the whole array.
+For example, 6 > 4 => swap them and get the following array at the 1st step: 3145246.
+Next step is as it follows: 2 < 4 => everyth. is alright..
+5 > 2 => swap them: 3142546.. 3142456.. 3124456.. 1324456.. 1234456.
+~ the idea is in it: moving on to the next task is represented as bobble popping.
+algorithm complexity is 0(n^2), where n - a number of steps. Each step has n operations (elements), that is why n*n = n^2.
+
+* Dichotomy: a search in the array.
+
+Dichotomy - the logical method to divide classes into subclasses.
+Case study sample: Let's imagine that such array is given: 1,17,5,2,4,11,9,16,10,3,12,6,7,8,13,15,14.
+algorithm complexity to sort it manually (means step-by-step): O(n).
+by dichotomy it is possible to sort it faster. In such case, algorithm complexity is O(ln(n)).
 
 ////Solutions will be at the Lecture 3.
 

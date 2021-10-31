@@ -272,6 +272,14 @@ until these become simple enough to be solved directly.
 
 Theorem: the mergesort requires no more than O(n*log2(n)) operations at worst.
 
+* (Hoare's) Quicksort [also called as qsort].
+
+Quicksort is a divide-and-conquer algorithm.
+This algorithm is very similar to the mergesort algorith; it is used to sort an array, too.
+In the case of qsort, It is perfect to pre-know a median and divide an array into the 2 parts (several times) based on that. =>
+the algorithm complexity is O(n*log2(n)) [on average].
+But actually there is a random elem. instead of a median => the algorithm complexity is O(n^2) [at the worst].
+
 ////Solutions will be at the Lecture 3.
 
 

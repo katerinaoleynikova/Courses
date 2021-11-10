@@ -102,7 +102,7 @@ R^2 means proportion of the information in the data that is explained by the mod
 *Ordinary Linear Regression*  
 - finds the plane (hyperplane, to be exact) that minimizes *the sum-of-squared errors (SSE)* between the observed and predicted response.  
 - sum-of-squared errors can be found by the formula:  
- SSE = sum_(i=1)^n(y_i - y-hat_i)^2.  
+SSE = sum_(i=1)^n(y_i - y-hat_i)^2.  
 
 *Regression model in matrix form*  
 y = X x beta + epsilon  
@@ -119,7 +119,7 @@ i (i = 1,..,n) - observation number in rows.
 
 *Beta^ (Beta-hat) equation*  
 Mathematically, the optimal plane can be found as it follows:  
- (X^(T)X)^(-1) x X^(T)y,  
+(X^(T)X)^(-1) x X^(T)y,  
 where X - the matrix,  
 y - the response vector,  
 X^T - transpose of matrix,  

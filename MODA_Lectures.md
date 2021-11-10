@@ -89,41 +89,41 @@ Case study: Solubility data.
   
 *Root Mean Squared Error (RMSE)*  
 RMSE = sqrt((1/n) x sum_(i=1)^n(y_i - y-hat_i)^2)  
-Meaning: how far (on average) the residuals are from zero. 
-It is smth like as the average distance between the observed values and the model predictions.
-/A residual - the difference between the observed y-value (from scatter plot) and the predicted y-value (from regression equation line).
+Meaning: how far (on average) the residuals are from zero.  
+It is smth like as the average distance between the observed values and the model predictions.  
+/A residual - the difference between the observed y-value (from scatter plot) and the predicted y-value (from regression equation line).  
 It is the vertical distance from the actual plotted point to the point on the regression line./
 
-*Coefficient of determination R^2*
-Usually R is a correlation coefficient (either Pearson or Spearman's rank correlation)
-R^2 means proportion of the information in the data that is explained by the model.
-/For instance, R^2 = 0.75 means that the model can explain 75% of the variation in the outcome./
+*Coefficient of determination R^2*  
+Usually R is a correlation coefficient (either Pearson or Spearman's rank correlation).  
+R^2 means proportion of the information in the data that is explained by the model.  
+/For instance, R^2 = 0.75 means that the model can explain 75% of the variation in the outcome./  
 
-*Ordinary Linear Regression*
-- finds the plane (hyperplane, to be exact) that minimizes *the sum-of-squared errors (SSE)* between the observed and predicted response.
-- sum-of-squared errors can be found by the formula:
-   SSE = sum_(i=1)^n(y_i - y-hat_i)^2.
+*Ordinary Linear Regression*  
+- finds the plane (hyperplane, to be exact) that minimizes *the sum-of-squared errors (SSE)* between the observed and predicted response.  
+- sum-of-squared errors can be found by the formula:  
+   SSE = sum_(i=1)^n(y_i - y-hat_i)^2.  
 
-*Regression model in matrix form*
-y = X x beta + epsilon
-The linear model w/ several explanatory variables is given by the equation:
-y_i = beta_1 + beta_2 x x_(2i) + beta_3 x x_(3i) + .. + beta_k x x_(ki) + epsilon_i (i = 1,..,n).
-It is convenient to express the model in matrix form:
-      y_1          1   x_21  .. x_(k1)            beta_1                epsilon_1
-y = ( .. ), X = ( ..    ..   ..  ..   ), beta = (   ..   ), epsilon = (    ..     ), where
-      y_n          1  x_(2n) .. x_(kn)            beta_k                epsilon_n
+*Regression model in matrix form*  
+y = X x beta + epsilon  
+The linear model w/ several explanatory variables is given by the equation:  
+y_i = beta_1 + beta_2 x x_(2i) + beta_3 x x_(3i) + .. + beta_k x x_(ki) + epsilon_i (i = 1,..,n).  
+It is convenient to express the model in matrix form:  
+      y_1          1   x_21  .. x_(k1)            beta_1                epsilon_1  
+y = ( .. ), X = ( ..    ..   ..  ..   ), beta = (   ..   ), epsilon = (    ..     ), where  
+      y_n          1  x_(2n) .. x_(kn)            beta_k                epsilon_n  
 
-n x k - matrix X,
-j (j = 1,..,k) - variable number in columns,
-i (i = 1,..,n) - observation number in rows.
+n x k - matrix X,  
+j (j = 1,..,k) - variable number in columns,  
+i (i = 1,..,n) - observation number in rows.  
 
-*Beta^ (Beta-hat) equation*
-Mathematically, the optimal plane can be found as it follows:
-   (X^(T)X)^(-1) x X^(T)y,
-where X - the matrix,
-y - the response vector,
-X^T - transpose of matrix,
-X^(-1) - inverse matrix.
+*Beta^ (Beta-hat) equation*  
+Mathematically, the optimal plane can be found as it follows:  
+   (X^(T)X)^(-1) x X^(T)y,  
+where X - the matrix,  
+y - the response vector,  
+X^T - transpose of matrix,  
+X^(-1) - inverse matrix.  
 
 
 

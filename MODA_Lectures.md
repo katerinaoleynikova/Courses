@@ -83,5 +83,24 @@ t-CS-m: trisomy mice, stimulated to learn, injected with memantine (9 mice);
 t-SC-s: trisomy mice, not stimulated to learn, injected with saline (9 mice);
 t-SC-m: trisomy mice, not stimulated to learn, injected with memantine (9 mice).
 
+Class 3-4. Linear regression models.  
+Linear regression. Measuring performance in regression models.  
+Case study: Solubility data.  
+  
+*Root Mean Squared Error (RMSE)*  
+RMSE = sqrt((1/n) x sum_(i=1)^n(y_i-y-hat_i)^2)  
+Meaning: how far (on average) the residuals are from zero. 
+It is smth like as the average distance between the observed values and the model predictions.
+/A residual - the difference between the observed y-value (from scatter plot) and the predicted y-value (from regression equation line).
+It is the vertical distance from the actual plotted point to the point on the regression line./
+
+*Coefficient of determination R^2*
+Usually R is a correlation coefficient (either Pearson or Spearman's rank correlation)
+R^2 means proportion of the information in the data that is explained by the model.
+/For instance, R^2 = 0.75 means that the model can explain 75% of the variation in the outcome./
+
+
+
+
 
 

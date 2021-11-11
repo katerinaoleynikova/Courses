@@ -125,14 +125,14 @@ y - the response vector,
 X^T - transpose of matrix,  
 X^(-1) - inverse matrix.  
 
-*Collinearity between predictors affects linear regression.*
+*Collinearity between predictors affects linear regression.*  
 - predictors may be functions of two or more of the other predictors - it means collinearity.
 - the variance inflation factor (VIF) can be used (Myers 1994).
 /VIF is a measure of the amount of multicollinearity in a set of multiple regression variables. Mathematically, the VIF for a regression model is equal to
 the ratio of the overall model variance to the variance of a model that includes only that single independent variable./
 - this statistic is computed for each predictor and a function of the correlation between the selected predictor and all of the other predictors.
 
-*Drawbacks of linear regression.*
+*Drawbacks of linear regression.*  
 - relations between predictors and outcome have curvatures -> requires nonlinearity.
 - observations that are far from the trend of the majority of the data will have exponentially large residuals -> robust regression has been developed.
 - there are no tuning parameters for multiple linear regression.
@@ -142,7 +142,7 @@ To deal w/ the presence of outliers in a dataset, we can use a family of robust 
 In such type of regression we seek to minimize the effect of outliers on the regression equations.
 It is particularly resourceful when there are no compelling reasons to exclude outliers in a data.
 
-**Penalized regression models / Shrinkage methods**
+**Penalized regression models / Shrinkage methods**  
 Penalized regression methods are also known as shrinkage or regularization methods for linear models cause a penalty causes the regression coef-s to shrink toward zero.
 In effect, these methods shrink the estimates towards zero as the lambda becomes large.
 It is worth to note that penalty can be optimized (it is a tuning parameter).
@@ -155,11 +155,17 @@ Ridge regression properties:
 - ridge regression is also known as Tikhonov regularization.
 - ridge regression is a model tuning method that is used to analyze any data that suffers from multicollinearity.
 
-*Least absolute shrinkage and selection operator model (LASSO)*
+*Least absolute shrinkage and selection operator model (LASSO)*  
 LASSO regression penalizes the sum of absolute values of the coef-s (L1 penalty):
 SSE_(L1) = sum_(i=1)^n(y_i - y-hat_i)^2 + lambda x sum_(j=1)^P|beta_j|.
 The key dif. between LASSO regression and Ridge regression is the penalty term (L1 and L2).
 LASSO tends to do well if there is a small number of significant parameters and the others are close to zero {when only a few predictors actually influence the response}.
 
-*Elastic Net*
+*Elastic Net*  
+(Zou and Hastie 2005) 
+SSE_(Enet) = sum_(i=1)^n(y_i - y-hat_i)^2 + lambda_1 x sum_(j=1)^P(beta_j)^2 + lambda_2 x sum_(j=1)^P|beta_j|.
+Elastic Net properties:  
+- generalization of LASSO model.  
+- combines two types of penalties as it seen by the formula.
+- Elastic Net has two tuning parameters: lambda_1 and fraction of full set solution (btw, when lambda_1 = 0 then we have LASSO).
 

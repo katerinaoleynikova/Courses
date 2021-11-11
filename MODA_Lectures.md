@@ -147,4 +147,8 @@ It is particularly resourceful when there are no compelling reasons to exclude o
 Ridge regression (Hoerl 1970) adds a penalty on the sum of the squared regression parameters:
 SSE_(L2) = sum_(i=1)^n(y_i - y-hat_i)^2 + lambda x sum_(j=1)^P(beta_j)^2,
 where (beta_j)^2 - a coefficient that is weight of each predictor in linear model.
-The "L2" signifies that this is a second-order penalty.
+Regression properties:
+- the "L2" signifies that this is a second-order penalty -> Ridge regression penalizes sum of squared coefficients (L2 penalty).
+- ridge regression is also known as Tikhonov regularization.
+- ridge regression is a model tuning method that is used to analyze any data that suffers from multicollinearity.
+

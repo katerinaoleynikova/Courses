@@ -128,8 +128,8 @@ X^(-1) - inverse matrix.
 *Collinearity between predictors affects linear regression.*
 - predictors may be functions of two or more of the other predictors - it means collinearity.
 - the variance inflation factor (VIF) can be used (Myers 1994).
-/VIF is a measure of the amount of multicollinearity in a set of multiple regression variables. Mathematically, the VIF for a regression model is equal to the ratio
-of the overall model variance to the variance of a model that includes only that single independent variable./
+/VIF is a measure of the amount of multicollinearity in a set of multiple regression variables. Mathematically, the VIF for a regression model is equal to
+the ratio of the overall model variance to the variance of a model that includes only that single independent variable./
 - this statistic is computed for each predictor and a function of the correlation between the selected predictor and all of the other predictors.
 
 *Drawbacks of linear regression.*

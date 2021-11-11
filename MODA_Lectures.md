@@ -142,13 +142,22 @@ To deal w/ the presence of outliers in a dataset, we can use a family of robust 
 In such type of regression we seek to minimize the effect of outliers on the regression equations.
 It is particularly resourceful when there are no compelling reasons to exclude outliers in a data.
 
-*L1 and L2 Penalized regression models*
+**Penalized regression models**
 *Ridge regression*
 Ridge regression (Hoerl 1970) adds a penalty on the sum of the squared regression parameters:
 SSE_(L2) = sum_(i=1)^n(y_i - y-hat_i)^2 + lambda x sum_(j=1)^P(beta_j)^2,
 where (beta_j)^2 - a coefficient that is weight of each predictor in linear model.
-Regression properties:
+Ridge regression properties:
 - the "L2" signifies that this is a second-order penalty -> Ridge regression penalizes sum of squared coefficients (L2 penalty).
 - ridge regression is also known as Tikhonov regularization.
 - ridge regression is a model tuning method that is used to analyze any data that suffers from multicollinearity.
+
+**Shrinkage methods**
+Penalized regression methods are also known as shrinkage or regularization methods for linear models cause a penalty causes the regression coef-s to shrink toward zero.
+In effect, these methods shrink the estimates towards zero as the lambda becomes large.
+It is worth to note that penalty can be optimized (it is a tuning parameter).
+*Least absolute shrinkage and selection operator model (LASSO)*
+LASSO regression penalizes the sum of absolute values of the coef-s (L1 penalty):
+SSE_(L1) = sum_(i=1)^n(y_i - y-hat_i)^2 + lambda x sum_(j=1)^P|beta_j|.
+The key dif. between LASSO regression and Ridge regression is the penalty term (L1 and L2).
 

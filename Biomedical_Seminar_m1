@@ -285,6 +285,15 @@ Lecture 3:
 * Set splitting problem.
 
 Case study sample: Assume that L1,..,Ln - item weights. It is needed to divide the whole set (that consists of all of the items) into the two subsets which have the ~ same weights.
+
+* Bucket sort, or bin sort.
+
+It is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket is then sorted individually, 
+either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm
+Here, each bucket (it also can be called a bin) is associated with not just one key, but rather a range of key values, but am amount of the keys is restricted 
+(low num. of keys) - O(n).
+The sample in which bucket sort could be implemented - the sorting of graph edges.
+
 ////Solutions will be at the Lecture 3.
 
 

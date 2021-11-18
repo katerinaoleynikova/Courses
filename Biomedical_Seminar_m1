@@ -280,6 +280,11 @@ In the case of qsort, It is perfect to pre-know a median and divide an array int
 the algorithm complexity is O(n*log2(n)) [on average].
 But actually there is a random elem. instead of a median => the algorithm complexity is O(n^2) [at the worst].
 
+Lecture 3: 
+
+* Set splitting problem.
+
+Case study sample: Assume that L1,..,Ln - item weights. It is needed to divide the whole set (that consists of all of the items) into the two subsets which have the ~ same weights.
 ////Solutions will be at the Lecture 3.
 
 

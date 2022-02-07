@@ -6,10 +6,23 @@ The 1st year:
 
 Combinatorics and Probability Theory (optional course) 
 
-Modern Methods of Data Analysis (Machine Learning and Data Analysis in Bioinformatics. Building Predictive Models with ML and Python. Advanced Statistics)
-
-Scientific Seminar "Biomedical Data Analysis" (rus)
-
 Mathematics (optional course)
 
+Modern Methods of Data Analysis (Machine Learning and Data Analysis in Bioinformatics. Building Predictive Models with ML and Python. Advanced Statistics)
+
+Scientific Seminar "Biomedical Data Analysis" (rus) (Basics of Algorithms)
+
 R Programming (rus) / Seminars
+
+Kotlin programming language (additional course)
+
+Data Analysis in Sport (additional course)
+
+Molecular Biology
+
+Applied Statistics
+
+Scientific Seminar "Biomedical Data Analysis" (rus) (by Vlasov)
+
+Practical Bioinformatics
+

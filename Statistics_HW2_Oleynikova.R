@@ -36,7 +36,7 @@ TA_probability2 = Thymines/Nucleotides * Adenines/Nucleotides # 0,09606989
 TA_probability2
 
 # Теоретическая (ожидаемая) частота ТА в геноме 
-TA_frequency2 = TA_probability2*Nucleotides #2872,778
+TA_frequency2 = TA_probability2*Nucleotides # 2872,778
 TA_frequency2 # f = 2872,778
 
 # Фактическая вероятность появления ТА в геноме

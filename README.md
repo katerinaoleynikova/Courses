@@ -28,5 +28,5 @@ Practical Bioinformatics
 
 Algorithms in Bioinformatics
 
-Comparative Genomics (M. Gelfand one love <3)
+Comparative Genomics (M. Gelfand one love)
 

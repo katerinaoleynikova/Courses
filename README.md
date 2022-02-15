@@ -8,7 +8,7 @@ Combinatorics and Probability Theory (optional course)
 
 Mathematics (optional course)
 
-Modern Methods of Data Analysis (Machine Learning and Data Analysis in Bioinformatics. Building Predictive Models with ML and Python. Advanced Statistics)
+Modern Methods of Data Analysis (Machine Learning and Data Analysis in Bioinformatics. Building Predictive Models with ML and Python. Advanced Statistics) / I've named it MODA
 
 Scientific Seminar "Biomedical Data Analysis" (rus) (Basics of Algorithms)
 

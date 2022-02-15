@@ -18,11 +18,15 @@ Kotlin programming language (additional course)
 
 Data Analysis in Sport (additional course)
 
-Molecular Biology
+Introduction to Molecular Biology
 
 Applied Statistics
 
 Scientific Seminar "Biomedical Data Analysis" (rus) (by Vlasov)
 
 Practical Bioinformatics
+
+Algorithms in Bioinformatics
+
+Comparative Genomics (M. Gelfand one love <3)
 

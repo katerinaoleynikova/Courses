@@ -28,5 +28,9 @@ Practical Bioinformatics
 
 Algorithms in Bioinformatics
 
-Comparative Genomics (M. Gelfand one love)
+Comparative Genomics (M. Gelfand one love) 
+
+History of pandemics (Faculty of History)
+
+Computational Mass Spectrometry
 

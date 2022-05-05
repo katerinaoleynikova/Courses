@@ -34,3 +34,5 @@ History of pandemics (Faculty of History)
 
 Computational Mass Spectrometry
 
+Russian history (Faculty of History)
+

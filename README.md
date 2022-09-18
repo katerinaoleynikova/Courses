@@ -10,7 +10,7 @@ Mathematics (optional course)
 
 Modern Methods of Data Analysis (Machine Learning and Data Analysis in Bioinformatics. Building Predictive Models with ML and Python. Advanced Statistics) / I've named it MODA
 
-Scientific Seminar "Biomedical Data Analysis" (rus) (Basics of Algorithms)
+Research Seminar "Biomedical Data Analysis" (rus) (Basics of Algorithms)
 
 R Programming (rus) / Seminars
 
@@ -22,7 +22,7 @@ Introduction to Molecular Biology
 
 Applied Statistics
 
-Scientific Seminar "Biomedical Data Analysis" (rus) (by Vlasov)
+Research Seminar "Biomedical Data Analysis" (rus) (by Vlasov)
 
 Practical Bioinformatics
 
@@ -36,3 +36,10 @@ Computational Mass Spectrometry
 
 Russian history (Faculty of History)
 
+The 2nd year:
+
+Research Seminar "Computational Phylogenetics"
+
+Modeling methods of spatial structure of proteins
+
+Bioinformatics for High Throughput Sequencing
